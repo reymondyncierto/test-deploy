@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;700&display=swap');
+
+.sideBar{
+    display: flex !important; 
+    flex-direction: column !important;
+    justify-content: space-between !important;
+    width: fit-content !important;
+    padding: 50px;
+    padding-top: 65px;
+    border-radius: 20px;
+}
+
+.whole{
+    transition: width 0.10s ease-in-out; 
+}
+
+
+
+.whole.collapsed{
+    width: 140px;
+}
+
+.buttonLabel{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+}
+
+.cardButton{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    text-align: center;
+    width: inherit;
+}
+
+.indivCards{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.nav-button{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
+
+.navButton{
+    width: 300px;
+    justify-content: start !important;
+}
+
+.navButton:hover{
+    border-radius: 5px;
+   
+}
+
+.navButton:not(:hover){
+    border-radius: 5px;
+}
+
+.sidebarOptions {
+  display: flex;
+  flex: row;
+  justify-content: space-between;
+  padding: 20px;
+  padding-left: 0px;
+  padding-top: 50px;
+}
+
+.cardIcon {
+  margin-right: 10px;
+}
+
+.menuButton{
+    padding: 8px;
+} 
+
+.menuButton:hover{
+    border-radius: 5px;
+   
+}
+
+.menuButton:not(:hover){
+    border-radius: 5px;
+}
+
+.menuButton:active{
+    color: #5647ff
+}
+
+.menuButton:focus{
+    outline: none;
+}
+
+.logoAndMenuBtn {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+    z-index: 9999;
+  }
+  
+  .popup-content {
+    text-align: center;
+  }
